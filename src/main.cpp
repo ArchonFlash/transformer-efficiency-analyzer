@@ -71,7 +71,7 @@ int main() {
     });
 
     std::cout << "============================================================\n";
-    std::cout << "  TRANSFORMER EFFICIENCY ANALYZER (C++ Web Server)\n";
+    std::cout << "  TRANSFORMER EFFICIENCY ANALYZER\n";
     std::cout << "============================================================\n";
     std::cout << "  [OK] Server running successfully!\n";
     std::cout << "  [URL] Open in your browser: http://localhost:8080\n";

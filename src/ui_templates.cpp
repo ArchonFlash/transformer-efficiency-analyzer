@@ -3,7 +3,7 @@
 #include <iomanip>
 
 // ============================================================================
-// MEMBER 4: C++ UI VIEW IMPLEMENTATION
+// MEMBER 4: UI VIEW IMPLEMENTATION
 // Module: ui_templates.cpp
 // ============================================================================
 
@@ -27,7 +27,7 @@ std::string renderDashboard(
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transformer Efficiency Analyzer (100% C++)</title>
+    <title>Transformer Efficiency Analyzer</title>
     <style>
         :root {
             --bg-main: #0b1120;
@@ -108,7 +108,6 @@ std::string renderDashboard(
         }
         .input-group { display: flex; flex-direction: column; gap: 6px; }
         label { font-size: 0.85rem; font-weight: 600; color: var(--text-muted); }
-        .unit-wrap { position: relative; }
         input[type="number"] {
             width: 100%;
             background: var(--bg-card-sub);
@@ -232,7 +231,7 @@ std::string renderDashboard(
 <div class="container">
 
     <header>
-        <span class="logo-badge">Pure C++ Web Architecture</span>
+        <span class="logo-badge">Electrical Diagnostics Suite</span>
         <h1>Transformer Efficiency Analyzer</h1>
         <p class="tagline">Comprehensive Loss Diagnostics, Peak Loading & Equivalent Circuit Performance</p>
     </header>
@@ -350,28 +349,25 @@ std::string renderDashboard(
     // Team Credits Footer
     h << R"html(
     <footer>
-        <div class="team-title">Academic Project Team (C++ Course)</div>
+        <div class="team-title">Engineering Development Team</div>
         <div class="team-grid">
             <div class="member-badge">
                 <div class="member-name">Member 1</div>
-                <div class="member-role">Core Electrical Engine (transformer_core.cpp)</div>
+                <div class="member-role">Electrical Modeling Engine</div>
             </div>
             <div class="member-badge">
                 <div class="member-name">Member 2</div>
-                <div class="member-role">SVG Vector Plotter & Validator (svg_plotter.cpp)</div>
+                <div class="member-role">Analytics & Graphics Engine</div>
             </div>
             <div class="member-badge">
                 <div class="member-name">Member 3</div>
-                <div class="member-role">Web Server & API Routing (main.cpp)</div>
+                <div class="member-role">Core Server Architecture</div>
             </div>
             <div class="member-badge">
                 <div class="member-name">Member 4</div>
-                <div class="member-role">UI View & Styling (ui_templates.cpp)</div>
+                <div class="member-role">UI & Analytical Reporting</div>
             </div>
         </div>
-        <p style="margin-top:14px; font-size:0.75rem; color:#64748b;">
-            100% C++ Implementation &bull; Zero JavaScript &bull; Zero External Runtimes
-        </p>
     </footer>
 
 </div>
